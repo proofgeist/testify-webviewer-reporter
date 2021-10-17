@@ -1,5 +1,5 @@
 {
-  "AllTestCount": 6,
+  "AllTestCount": 7,
   "AllTests": [
     {
       "DESCRIPTION": "should have an enabledState property = 0",
