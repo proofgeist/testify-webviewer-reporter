@@ -25,7 +25,7 @@ import {
   WarningTwoIcon
 } from "@chakra-ui/icons";
 import ReactJson from "react-json-view";
-import JsonFormat from "./vendored/js-compare-bundle";
+import JsonFormat from "react-json-compare-viewer";
 
 function loadData(data, showAll = false) {
   let filtered = [];
