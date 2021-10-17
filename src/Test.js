@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import fake from "./fake.json";
 import { groupBy, set } from "lodash";
 import {
   Heading,
@@ -26,7 +25,7 @@ import {
   WarningTwoIcon
 } from "@chakra-ui/icons";
 import ReactJson from "react-json-view";
-import JsonFormat from "react-json-compare-viewer";
+const JsonFormat = require("react-json-compare-viewer");
 
 function loadData(data, showAll = false) {
   let filtered = [];
